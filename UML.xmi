@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2022-10-14T22:00:50" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.18</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical_View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="urL96k20OJ1AI" name="char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uu5Uo0of358sV" name="int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u0gdhvWABco9A" name="float"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uSC8gcYYiciqg" name="double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u1BAijl1pI11y" name="bool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ufkhZKOgjs2hL" name="string"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="un7fzG7Nahjs9" name="unsigned char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ukUN4tnY6NvrU" name="signed char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEqQrP0rSCepi" name="unsigned int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u7wFBCDPfUnAa" name="signed int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uMyFdaU79tEyU" name="short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uSYyB0mnL4HlC" name="unsigned short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvQGIuYooxM4t" name="signed short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uF5K4Hkpu6yG8" name="long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uMf6xiLx4yNSN" name="signed long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ufKlGqK21y0rs" name="unsigned long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="us7xiwVzmOx67" name="long double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uGZqac3tqQNZc" name="wchar_t"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="uZXiRbV3DmD3m" isRoot="false" xmi.id="uEoqlehYWkmpl" name="ArrayList&lt;Field>"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="uZXiRbV3DmD3m" isRoot="false" xmi.id="uxRrXTdxuO2Xn" name="ArrayList&lt;Player>"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="uZXiRbV3DmD3m" isRoot="false" xmi.id="ul1wWfLbfjpmt" name="ArrayList&lt;Integer>"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLKRltmhDcCjZ" name="Property*"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uFSdZlyOfLBrS" name="Program">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uRXKxMdluz2eu" type="ugb6uYbQlkCgT" name="_filename"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uzw25meMjcsWz" type="ue2JmS2kYg3JV" name="capitaly"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uE29uvuMcK1U7" isOverride="false" name="run" isInline="false" isVirtual="false"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uilQdm6yzMT0U" isOverride="false" name="progToString" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uIv78OmnVkh2t" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ue2JmS2kYg3JV" comment=" private ArrayList&lt;Field> _circuit = new ArrayList&lt;>();&#xa;    private ArrayList&lt;Player> _players = new ArrayList&lt;>();&#xa;    private ArrayList&lt;Integer> _rolls = new ArrayList&lt;>();&#xa;&#xa;&#xa;    // Dice dice = new Dice();&#xa;    private Player winner = null;&#xa;    private boolean exist_winner;&#xa;    private boolean out_of_dice;" name="Capitaly">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uv0TRXq37YSxn" type="uEoqlehYWkmpl" name="_circuit"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u1XKku8D0ulxt" type="uxRrXTdxuO2Xn" name="_players"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u7SXFd8WfNJrl" type="ul1wWfLbfjpmt" name="_rolls"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uPPMclXMdArOP" type="uiAVHrpR741iz" name="winner"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="urBq1S1IqYRsJ" type="uj0m2NKx3cgBh" name="exist_winner"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u5HACOaRHTBYU" type="uj0m2NKx3cgBh" name="out_of_dice"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uc6SXKAeS6ohK" type="uvotMN1yXlllO" name="new_attribute"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="unFxXfWnGAaXQ" comment="1.    Capitaly(ArrayList&lt;Field> circuit, ArrayList&lt;Player> players, ArrayList&lt;Integer> rolls): create a capitaly game by parameter circuit, players, and rolls &#xa;2.    public ArrayList&lt;Field> getCircuit(): return _circuit. &#xa;3.    public ArrayList&lt;Player> getPlayers(): return _players. &#xa;4.    public ArrayList&lt;Integer> getRolls(): return _rolls. &#xa;5.    public Boolean isLastWinner(Player p): check wheter a player p is the last winner in the fields, in case that every player in the circuit before p is already lost in the same round, p will automatically win. &#xa;6.    public void cleanUp(): clear the _circuit, _players, and _rolls array list in case we will end the game. &#xa;7.    public void doEvent(): looping rounds for the players to roll dice and move to the fields. Until only one player is left. The person will be the winner, his/her data will be printed out: type, name, balance, owned properties. public String getWinnerString(): as same as doEvent(), but the output is string, not just to command line" isOverride="false" name="getCircuit" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="usjsxpQPalrhu" type="uEoqlehYWkmpl"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u5N0p4nyYX7M3" comment="1.    Capitaly(ArrayList&lt;Field> circuit, ArrayList&lt;Player> players, ArrayList&lt;Integer> rolls): create a capitaly game by parameter circuit, players, and rolls &#xa;2.    public ArrayList&lt;Field> getCircuit(): return _circuit. &#xa;3.    public ArrayList&lt;Player> getPlayers(): return _players. &#xa;4.    public ArrayList&lt;Integer> getRolls(): return _rolls. &#xa;5.    public Boolean isLastWinner(Player p): check wheter a player p is the last winner in the fields, in case that every player in the circuit before p is already lost in the same round, p will automatically win. &#xa;6.    public void cleanUp(): clear the _circuit, _players, and _rolls array list in case we will end the game. &#xa;7.    public void doEvent(): looping rounds for the players to roll dice and move to the fields. Until only one player is left. The person will be the winner, his/her data will be printed out: type, name, balance, owned properties. public String getWinnerString(): as same as doEvent(), but the output is string, not just to command line" isOverride="false" name="getPlayers" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u6nnGO585C6Uz" type="uxRrXTdxuO2Xn"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ugN9U0ss5Nep7" comment="1.    Capitaly(ArrayList&lt;Field> circuit, ArrayList&lt;Player> players, ArrayList&lt;Integer> rolls): create a capitaly game by parameter circuit, players, and rolls &#xa;2.    public ArrayList&lt;Field> getCircuit(): return _circuit. &#xa;3.    public ArrayList&lt;Player> getPlayers(): return _players. &#xa;4.    public ArrayList&lt;Integer> getRolls(): return _rolls. &#xa;5.    public Boolean isLastWinner(Player p): check wheter a player p is the last winner in the fields, in case that every player in the circuit before p is already lost in the same round, p will automatically win. &#xa;6.    public void cleanUp(): clear the _circuit, _players, and _rolls array list in case we will end the game. &#xa;7.    public void doEvent(): looping rounds for the players to roll dice and move to the fields. Until only one player is left. The person will be the winner, his/her data will be printed out: type, name, balance, owned properties. public String getWinnerString(): as same as doEvent(), but the output is string, not just to command line" isOverride="false" name="getRolls" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u3uYt8SfNUDKH" type="ul1wWfLbfjpmt"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uH2Nr0M9jVLXl" comment="1.    Capitaly(ArrayList&lt;Field> circuit, ArrayList&lt;Player> players, ArrayList&lt;Integer> rolls): create a capitaly game by parameter circuit, players, and rolls &#xa;2.    public ArrayList&lt;Field> getCircuit(): return _circuit. &#xa;3.    public ArrayList&lt;Player> getPlayers(): return _players. &#xa;4.    public ArrayList&lt;Integer> getRolls(): return _rolls. &#xa;5.    public Boolean isLastWinner(Player p): check wheter a player p is the last winner in the fields, in case that every player in the circuit before p is already lost in the same round, p will automatically win. &#xa;6.    public void cleanUp(): clear the _circuit, _players, and _rolls array list in case we will end the game. &#xa;7.    public void doEvent(): looping rounds for the players to roll dice and move to the fields. Until only one player is left. The person will be the winner, his/her data will be printed out: type, name, balance, owned properties. public String getWinnerString(): as same as doEvent(), but the output is string, not just to command line" isOverride="false" name="isLastWinner" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uylFdY7IjSF4I" type="uiAVHrpR741iz"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uwZhjsS2FbNnO" type="uiAVHrpR741iz" value="" name="p"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uddg5EmvDwonK" comment="1.    Capitaly(ArrayList&lt;Field> circuit, ArrayList&lt;Player> players, ArrayList&lt;Integer> rolls): create a capitaly game by parameter circuit, players, and rolls &#xa;2.    public ArrayList&lt;Field> getCircuit(): return _circuit. &#xa;3.    public ArrayList&lt;Player> getPlayers(): return _players. &#xa;4.    public ArrayList&lt;Integer> getRolls(): return _rolls. &#xa;5.    public Boolean isLastWinner(Player p): check wheter a player p is the last winner in the fields, in case that every player in the circuit before p is already lost in the same round, p will automatically win. &#xa;6.    public void cleanUp(): clear the _circuit, _players, and _rolls array list in case we will end the game. &#xa;7.    public void doEvent(): looping rounds for the players to roll dice and move to the fields. Until only one player is left. The person will be the winner, his/her data will be printed out: type, name, balance, owned properties. public String getWinnerString(): as same as doEvent(), but the output is string, not just to command line" isOverride="false" name="cleanUp" isInline="false" isVirtual="false"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="urlP3L6SPpG0U" comment="1.    Capitaly(ArrayList&lt;Field> circuit, ArrayList&lt;Player> players, ArrayList&lt;Integer> rolls): create a capitaly game by parameter circuit, players, and rolls &#xa;2.    public ArrayList&lt;Field> getCircuit(): return _circuit. &#xa;3.    public ArrayList&lt;Player> getPlayers(): return _players. &#xa;4.    public ArrayList&lt;Integer> getRolls(): return _rolls. &#xa;5.    public Boolean isLastWinner(Player p): check wheter a player p is the last winner in the fields, in case that every player in the circuit before p is already lost in the same round, p will automatically win. &#xa;6.    public void cleanUp(): clear the _circuit, _players, and _rolls array list in case we will end the game. &#xa;7.    public void doEvent(): looping rounds for the players to roll dice and move to the fields. Until only one player is left. The person will be the winner, his/her data will be printed out: type, name, balance, owned properties. public String getWinnerString(): as same as doEvent(), but the output is string, not just to command line" isOverride="false" name="doEvent" isInline="false" isVirtual="false"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvDVarvty3PDa" isOverride="false" name="getWinnerString" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ugb6uYbQlkCgT" name="String"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZXiRbV3DmD3m" name="ArrayList"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uiAVHrpR741iz" comment="protected String _name;&#xa;    protected int _balance;&#xa;    protected int _pos;&#xa;    protected boolean _ingame;&#xa;    protected ArrayList&lt;Field> _fields = new ArrayList&lt;>();" name="Player">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="protected" isSpecification="false" xmi.id="uLEv6uE6tzMZz" type="uLKRltmhDcCjZ" comment="protected String _name;&#xa;protected int _balance;&#xa;protected int _pos;&#xa;protected boolean _ingame;&#xa;protected ArrayList&lt;Field> _fields = new ArrayList&lt;>();" name="_fields"/>
+        <UML:Attribute visibility="protected" isSpecification="false" xmi.id="uRLCiJDjionwD" type="ugb6uYbQlkCgT" name="_name"/>
+        <UML:Attribute visibility="protected" isSpecification="false" xmi.id="uMhvpZBGSXfSn" type="uu5Uo0of358sV" comment="protected String _name;&#xa;protected int _balance;&#xa;protected int _pos;&#xa;protected boolean _ingame;&#xa;protected ArrayList&lt;Field> _fields = new ArrayList&lt;>();" name="_balance"/>
+        <UML:Attribute visibility="protected" isSpecification="false" xmi.id="uoyexEQe7PZiH" type="uu5Uo0of358sV" comment="protected String _name;&#xa;protected int _balance;&#xa;protected int _pos;&#xa;protected boolean _ingame;&#xa;protected ArrayList&lt;Field> _fields = new ArrayList&lt;>();" name="_pos"/>
+        <UML:Attribute visibility="protected" isSpecification="false" xmi.id="u5eNEHdaNwH6Y" type="uj0m2NKx3cgBh" comment="protected String _name;&#xa;protected int _balance;&#xa;protected int _pos;&#xa;protected boolean _ingame;&#xa;protected ArrayList&lt;Field> _fields = new ArrayList&lt;>();" name="_ingame"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ui9kDTSc9yMhu" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="getName" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uNdszKM1DeMDO" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ujUay4BYcMORz" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="getFields" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="usENNYodXM50b" type="uEoqlehYWkmpl"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uifZekrHLi9xW" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="getPos" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uszPNVdmlTHns" type="uu5Uo0of358sV"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ukHPmxI5pTEja" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="getBalance" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uck4wQEGNXWEx" type="uu5Uo0of358sV"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uCLQSiYq63r7H" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="getInGame" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ummI5Hh3LmaIp" type="uu5Uo0of358sV"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u0jJSn4MTMNdm" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="getType" isInline="false" isVirtual="true">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="usc7UGqWGF7CA" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uMIClhFKCGg2y" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="buy" isInline="false" isVirtual="true">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uiqvgwC2Ws3rC" type="udkAvpBkGjLHd" value="" name="f"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ufzoRuowaMWnQ" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="setMoney" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="upHeMbREJpB2j" type="uj0m2NKx3cgBh"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uWymILw23vaQX" type="uu5Uo0of358sV" value="" name="amount"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDuxxFu1WbCV5" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="addField" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ufmKkIUc3NEiO" type="uvotMN1yXlllO" value="" name="field"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u89aZyZEG9Bws" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="removeField" isInline="false" isVirtual="false"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ux2hHfchGkZTy" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="pay" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ub2DgK16h2h2r" type="uiAVHrpR741iz" value="" name="player"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uudkEI3S4DnP6" type="uu5Uo0of358sV" value="" name="amount"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u8aTL9e3oMSxM" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="print" isInline="false" isVirtual="false"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="upbUFdshnIrRb" comment="1.    public String getName(): get name of the player. &#xa;2.    public ArrayList&lt;Field> getFields(): get fields the player owned. &#xa;3.    public int getPos(): get position on the board of the player. &#xa;4.    public int getBalance(): get balance the player owns. &#xa;5.    public int getInGame(): get whether the player is lost or not. &#xa;6.    public abstract String getType(): get the type of the player (implement later). &#xa;7.    public abstract void buy(Property f) : player buys property (implement later). &#xa;8.    public void buy(Field f): use as a transitional method. &#xa;9.    public boolean setMoney(int amount): set the amount of the balance. &#xa;10.  public void addField(Field field): add field. &#xa;11.  public void removeField(): remove fields. &#xa;12.  public void move(int amount): move the player. &#xa;13.  public void pay(Player player, int amount): play another player as the given amount. &#xa;14.  public void print(): print the data of the player. &#xa;15.  public String printString(): print the data of the player as a string. public void doEvent(Field f): given a field a player will reacted differently" isOverride="false" name="printString" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u8lsbEKkjQP9u" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ur0nqGDDOxslB" isOverride="false" name="doEvent" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="udjU0GKYXukM6" type="uvotMN1yXlllO" value="" name="field"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uj0m2NKx3cgBh" name="boolean"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvotMN1yXlllO" name="Field">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="protected" isSpecification="false" xmi.id="upJCCT0eRBA4D" type="uu5Uo0of358sV" comment="    protected int _pos;&#xa;    protected String _name;&#xa;    protected int _value;&#xa;    protected boolean _buyable;&#xa;&#xa;" name="_pos"/>
+        <UML:Attribute visibility="protected" isSpecification="false" xmi.id="uxdWFZ10gNDud" type="ugb6uYbQlkCgT" comment="    protected int _pos;&#xa;    protected String _name;&#xa;    protected int _value;&#xa;    protected boolean _buyable;&#xa;&#xa;" name="_name"/>
+        <UML:Attribute visibility="protected" isSpecification="false" xmi.id="uGjQQAv8iJ655" type="uu5Uo0of358sV" comment="    protected int _pos;&#xa;    protected String _name;&#xa;    protected int _value;&#xa;    protected boolean _buyable;&#xa;&#xa;" name="_value"/>
+        <UML:Attribute visibility="protected" isSpecification="false" xmi.id="uVqYyAUVuc6lJ" type="uj0m2NKx3cgBh" comment="    protected int _pos;&#xa;    protected String _name;&#xa;    protected int _value;&#xa;    protected boolean _buyable;&#xa;&#xa;" name="_buyable"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ugVgn0JgYJ9IA" comment="1.    public int getPos(): get postion of the field. &#xa;2.    public String getName(): get the name of the field. &#xa;3.    public boolean getBuyable(): get the buyability of the field. &#xa;4.    public int getValue(): get the value of the field. &#xa;5.    public abstract String getType(): get type of the field (implemented later). &#xa;6.    public abstract void print(): print the data of the field (implemented later). &#xa;7.    public abstract Player getOwner(): get the owner of the field. &#xa;8.    public abstract void removeOwner(): remove the owner of the field. &#xa;9.    public void setBuyable(boolean b): set the buyability of the field (for property implementation) &#xa;10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="getPos" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u4MQt8LzwKZBk" type="uu5Uo0of358sV"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u0KPhDgW7EET2" comment="1.    public int getPos(): get postion of the field. &#xa;2.    public String getName(): get the name of the field. &#xa;3.    public boolean getBuyable(): get the buyability of the field. &#xa;4.    public int getValue(): get the value of the field. &#xa;5.    public abstract String getType(): get type of the field (implemented later). &#xa;6.    public abstract void print(): print the data of the field (implemented later). &#xa;7.    public abstract Player getOwner(): get the owner of the field. &#xa;8.    public abstract void removeOwner(): remove the owner of the field. &#xa;9.    public void setBuyable(boolean b): set the buyability of the field (for property implementation) &#xa;10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="getName" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uOkUZEJn9TAxV" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ubvnv0pgzW9FJ" comment="1.    public int getPos(): get postion of the field. &#xa;2.    public String getName(): get the name of the field. &#xa;3.    public boolean getBuyable(): get the buyability of the field. &#xa;4.    public int getValue(): get the value of the field. &#xa;5.    public abstract String getType(): get type of the field (implemented later). &#xa;6.    public abstract void print(): print the data of the field (implemented later). &#xa;7.    public abstract Player getOwner(): get the owner of the field. &#xa;8.    public abstract void removeOwner(): remove the owner of the field. &#xa;9.    public void setBuyable(boolean b): set the buyability of the field (for property implementation) &#xa;10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="getBuyable" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ubxz6TLH0CswU" type="uj0m2NKx3cgBh"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uk368C3rHbikV" comment="1.    public int getPos(): get postion of the field. &#xa;2.    public String getName(): get the name of the field. &#xa;3.    public boolean getBuyable(): get the buyability of the field. &#xa;4.    public int getValue(): get the value of the field. &#xa;5.    public abstract String getType(): get type of the field (implemented later). &#xa;6.    public abstract void print(): print the data of the field (implemented later). &#xa;7.    public abstract Player getOwner(): get the owner of the field. &#xa;8.    public abstract void removeOwner(): remove the owner of the field. &#xa;9.    public void setBuyable(boolean b): set the buyability of the field (for property implementation) &#xa;10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="getValue" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uLz99BSyACErj" type="uu5Uo0of358sV"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uT2GREgoWzJDr" comment="5.    public abstract String getType(): get type of the field (implemented later). &#xa;6.    public abstract void print(): print the data of the field (implemented later). &#xa;7.    public abstract Player getOwner(): get the owner of the field. &#xa;8.    public abstract void removeOwner(): remove the owner of the field. &#xa;9.    public void setBuyable(boolean b): set the buyability of the field (for property implementation) &#xa;10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="getType" isInline="false" isVirtual="true">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uP3PaJ17PrcW8" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uusdEl77eT4Qx" comment="6.    public abstract void print(): print the data of the field (implemented later). &#xa;7.    public abstract Player getOwner(): get the owner of the field. &#xa;8.    public abstract void removeOwner(): remove the owner of the field. &#xa;9.    public void setBuyable(boolean b): set the buyability of the field (for property implementation) &#xa;10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="print" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uAHTbf1BsRyH2" comment="6.    public abstract void print(): print the data of the field (implemented later). &#xa;7.    public abstract Player getOwner(): get the owner of the field. &#xa;8.    public abstract void removeOwner(): remove the owner of the field. &#xa;9.    public void setBuyable(boolean b): set the buyability of the field (for property implementation) &#xa;10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="getOwner" isInline="false" isVirtual="true">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u16xGgJJEh1K6" type="uiAVHrpR741iz"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uq41Emb1VSQC0" comment="6.    public abstract void print(): print the data of the field (implemented later). &#xa;7.    public abstract Player getOwner(): get the owner of the field. &#xa;8.    public abstract void removeOwner(): remove the owner of the field. &#xa;9.    public void setBuyable(boolean b): set the buyability of the field (for property implementation) &#xa;10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="removeOwner" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="udlAryQuTOiPN" comment="9.    public void setBuyable(boolean b): set the buyability of the field (for property implementation) &#xa;10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="setBuyable" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uFtTJXZNSS3K0" type="uj0m2NKx3cgBh" value="" name="b"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uQUfjQ7mZxerH" comment="10.  public void removeField(): remove fields. &#xa;11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name="removeField" isInline="false" isVirtual="false"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u3q8Rw0NoNvqH" comment="11.  public abstract boolean isHouseBought(): transitional method for property " isOverride="false" name=" isHouseBought()" isInline="false" isVirtual="true">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="utLNuYO9M3409" type="uj0m2NKx3cgBh"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uW7agi7zG8oL9" name="CarefulPlayer">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uw8E56KpbLt7U"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u5q2jMa2kmsm7" type="uu5Uo0of358sV" comment="int _moneyForTheRound;" name="_moneyForTheRound"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u9IMCqsSfcYgQ" comment="public String getType(): return “Careful Player”&#xa;public void setMoneyForTheRound(): set money for the round as half of the balance&#xa;public void buy(Property f): buy property if and only if he has 2 times the money" isOverride="false" name="getType" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uBcdMyXNQIrec" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uqofo9f5ZG2nI" comment="public void setMoneyForTheRound(): set money for the round as half of the balance&#xa;public void buy(Property f): buy property if and only if he has 2 times the money" isOverride="false" name="setMoneyForTheRound" isInline="false" isVirtual="false"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uBeUFpJin43R0" comment="public void buy(Property f): buy property if and only if he has 2 times the money" isOverride="false" name="buy" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uvkCOrCgUisKn" type="uvotMN1yXlllO" value="" comment="buy" name="field"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uVP033FVPjvNb" name="GreedyPlayer">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uKeKFwJgCTIzi"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="un4TQRGYk6oEo" isOverride="false" name="getType" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uBwUTPylzPHjJ" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uMVyztWPlf3wv" isOverride="false" name="buy" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uNH2eZLAxcmHl" type="uvotMN1yXlllO" value="" name="field"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDOXtoIL8PmZW" name="TacticalPlayer">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="u51R6mM6s3iHq"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uRK5O1yaoS9Pu" type="uj0m2NKx3cgBh" name="_isSecond"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ughjfklLtem1K" isOverride="false" name="getType" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uPP95krRWgWYp" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKsP0wor525FI" isOverride="false" name="buy" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ueN3VfoZkkDw7" type="uvotMN1yXlllO" value="" name="field"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLqYTja1H7URP" comment="1.    public String getType(): return “Lucky” &#xa;2.    public Player getOwner():null &#xa;3.    public void print(): print data of Lucky &#xa;4.    public boolean isHouseBought(): null &#xa;5.    public void removeOwner(): null " name="Lucky">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="ueg7rUYlXWSi1"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u2hfB4DffkNmS" comment="1.    public String getType(): return “Lucky” &#xa;2.    public Player getOwner():null &#xa;3.    public void print(): print data of Lucky &#xa;4.    public boolean isHouseBought(): null &#xa;5.    public void removeOwner(): null " isOverride="false" name="getType" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uK5Et7kbMLZHt" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZr4lgGnCaXJh" isOverride="false" name="print" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="udkAvpBkGjLHd" name="Property">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="uxSBCMhZQcaUR"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uQ74jaTuhT63B" type="uu5Uo0of358sV" comment="    private int _housePrice = 4000;&#xa;    private boolean _houseBought = false;&#xa;    private Player _owner = null;" initialValue="4000" name="_housePrice"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uI1iH0HmFO1Xm" type="uj0m2NKx3cgBh" comment="    private int _housePrice = 4000;&#xa;    private boolean _houseBought = false;&#xa;    private Player _owner = null;" initialValue="false" name="_houseBought"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uK50eRad2Jy42" type="uiAVHrpR741iz" initialValue="null" name="_owner"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uxtXhK9RZU9IR" comment="1.    public String getType(): return “Property” &#xa;2.    public boolean isHouseBought(): return _houseBought &#xa;3.    public int getHousePrice(): return _housePrice &#xa;4.    public Player getOwner(): return _owner &#xa;5.    public void setHouseBought(boolean b): set _houseBought as b &#xa;6.    public void setOwner(Player p): set _owner to p &#xa;7.    public void removeOwner(): remove _owner &#xa;8.    public void print(): print data of the property " isOverride="true" name="getType" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uwmFm7rUIjlbZ" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uNkW1dq0hHgHp" comment="2.    public boolean isHouseBought(): return _houseBought &#xa;3.    public int getHousePrice(): return _housePrice &#xa;4.    public Player getOwner(): return _owner &#xa;5.    public void setHouseBought(boolean b): set _houseBought as b &#xa;6.    public void setOwner(Player p): set _owner to p &#xa;7.    public void removeOwner(): remove _owner &#xa;8.    public void print(): print data of the property " isOverride="false" name=" isHouseBought()" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uUuRw2j9zZJGI" type="uj0m2NKx3cgBh"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLO0J7bsUqxSX" comment="3.    public int getHousePrice(): return _housePrice &#xa;4.    public Player getOwner(): return _owner &#xa;5.    public void setHouseBought(boolean b): set _houseBought as b &#xa;6.    public void setOwner(Player p): set _owner to p &#xa;7.    public void removeOwner(): remove _owner &#xa;8.    public void print(): print data of the property " isOverride="false" name="getHousePrice" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uGU7kkvZ3n9K1" type="uu5Uo0of358sV"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uipOkSb7ZgUsx" comment="4.    public Player getOwner(): return _owner &#xa;5.    public void setHouseBought(boolean b): set _houseBought as b &#xa;6.    public void setOwner(Player p): set _owner to p &#xa;7.    public void removeOwner(): remove _owner &#xa;8.    public void print(): print data of the property " isOverride="false" name="getOwner" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uorc1PookahJe" type="uiAVHrpR741iz"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZ0ASKHPDhGjo" comment="4.    public Player getOwner(): return _owner &#xa;5.    public void setHouseBought(boolean b): set _houseBought as b &#xa;6.    public void setOwner(Player p): set _owner to p &#xa;7.    public void removeOwner(): remove _owner &#xa;8.    public void print(): print data of the property " isOverride="false" name="setHouseBought" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uzVnOMmSrak9i" type="uj0m2NKx3cgBh" value="" name="b"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uMIZeITPCN0xk" comment="6.    public void setOwner(Player p): set _owner to p &#xa;7.    public void removeOwner(): remove _owner &#xa;8.    public void print(): print data of the property " isOverride="false" name="setOwner" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uAq8xEiVU4uXA" type="udkAvpBkGjLHd" value="" name="p"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uBw7MO5XZnoHx" comment="7.    public void removeOwner(): remove _owner &#xa;8.    public void print(): print data of the property " isOverride="false" name="removeOwner" isInline="false" isVirtual="false"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uzUJ1xlqod138" isOverride="false" name="print" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uu6sYMLMyjLe2" name="Service">
+       <UML:GeneralizableElement.generalization>
+        <UML:Generalization xmi.idref="ufCtkmEmiD2hL"/>
+       </UML:GeneralizableElement.generalization>
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uTnauOet7RmpK" isOverride="false" name="getType" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uwASptll1UhES" type="ugb6uYbQlkCgT"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uzOyZ2xsesLDp" isOverride="false" name="print" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uW7agi7zG8oL9" xmi.id="uw8E56KpbLt7U" parent="uiAVHrpR741iz" name=""/>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uVP033FVPjvNb" xmi.id="uKeKFwJgCTIzi" parent="uiAVHrpR741iz" name=""/>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uDOXtoIL8PmZW" xmi.id="u51R6mM6s3iHq" parent="uiAVHrpR741iz" name=""/>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uLqYTja1H7URP" xmi.id="ueg7rUYlXWSi1" parent="uvotMN1yXlllO" name=""/>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="udkAvpBkGjLHd" xmi.id="uxSBCMhZQcaUR" parent="uvotMN1yXlllO" name=""/>
+      <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uu6sYMLMyjLe2" xmi.id="ufCtkmEmiD2hL" parent="uvotMN1yXlllO" name=""/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="96">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="1004.23" canvaswidth="1240.78" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="81.26397834202871" xmi.id="utbnImSlcZpOD" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-296.465" showattsigs="601" showstereotype="1" y="-3802.5" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="ucm5JsbQrswn0" width="139" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uFSdZlyOfLBrS" autoresize="1" showscope="1" height="75" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-328.57" showattsigs="601" showstereotype="1" y="-3628.95" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uQlEXTjfy9Y3X" width="194" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="ue2JmS2kYg3JV" autoresize="1" showscope="1" height="225" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-612.571" showattsigs="601" showstereotype="1" y="-3368.1" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="ujUsjc6pPQhV8" width="198" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uiAVHrpR741iz" autoresize="1" showscope="1" height="300" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-85.069" showattsigs="601" showstereotype="1" y="-3344.71" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uG1XeYMKZrmJ5" width="179" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uvotMN1yXlllO" autoresize="1" showscope="1" height="240" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-896.097" showattsigs="601" showstereotype="1" y="-2983.12" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uvASM2aRgQoCT" width="159" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uW7agi7zG8oL9" autoresize="1" showscope="1" height="75" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-580.498" showattsigs="601" showstereotype="1" y="-2947.41" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u1InqFEbtUxTm" width="112" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uVP033FVPjvNb" autoresize="1" showscope="1" height="52" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-398.604" showattsigs="601" showstereotype="1" y="-2969.41" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uOPZOaRsZjwJY" width="130" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uDOXtoIL8PmZW" autoresize="1" showscope="1" height="60" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="36.7802" showattsigs="601" showstereotype="1" y="-2971.39" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uvipnGo8BBUqN" width="112" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uLqYTja1H7URP" autoresize="1" showscope="1" height="52" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-245.031" showattsigs="601" showstereotype="1" y="-2978.27" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="upJkDR5FR2c4A" width="192" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="udkAvpBkGjLHd" autoresize="1" showscope="1" height="180" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="232.687" showattsigs="601" showstereotype="1" y="-2968.1" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uvbczj75Jh94p" width="112" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uu6sYMLMyjLe2" autoresize="1" showscope="1" height="52" showopsigs="601"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="ue2JmS2kYg3JV" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uFSdZlyOfLBrS" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="1" visibilityB="1" localid="uAJf2ceJdj5G3" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uRXKxMdluz2eu" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-236.535" starty="-3727.5"/>
+           <endpoint endx="-236.535" endy="-3628.95"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-220.535" showstereotype="1" y="-3677.08" text="_filename" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="uoWipPqnhfx5T" pretext="-" role="710" width="58" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="u1fxpGugtYV0n" autoresize="1" height="17"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="ue2JmS2kYg3JV" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uFSdZlyOfLBrS" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="1" visibilityB="1" localid="uDkvmOhaHNfJj" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uzw25meMjcsWz" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-235.852" starty="-3727.5"/>
+           <endpoint endx="-235.852" endy="-3628.95"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-292.996" showstereotype="1" y="-3647.94" text="capitaly" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="ubkbQRvEmVLNr" pretext="-" role="710" width="49" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="u904eziLYOF6r" autoresize="1" height="17"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="uiAVHrpR741iz" indexb="1" linewidth="0" seqnum="" textcolor="#000000" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="ue2JmS2kYg3JV" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="1" visibilityB="1" localid="uIHdla8hizar5" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uPPMclXMdArOP" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-328.57" starty="-3403.95"/>
+           <endpoint endx="-414.571" endy="-3368.1"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-433.549" showstereotype="1" y="-3387" text="1..*" font="MS Shell Dlg 2,8.2,-1,5,50,0,0,0,0,0" localid="u7FnWUFm24SNF" pretext="" role="702" width="28" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uqusVvvXGMdhK" autoresize="1" height="17"/>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-373.718" showstereotype="1" y="-3376.37" text="_players" font="MS Shell Dlg 2,8.2,-1,5,50,0,0,0,0,0" localid="uy5eGPfPvp4I2" pretext="-" role="710" width="53" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uwYQ7NWPem17R" autoresize="1" height="17"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="uvotMN1yXlllO" indexb="1" linewidth="0" seqnum="" textcolor="#000000" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="ue2JmS2kYg3JV" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="1" visibilityB="1" localid="uQRdHRvFjZZUg" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uc6SXKAeS6ohK" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-134.57" starty="-3403.95"/>
+           <endpoint endx="-85.069" endy="-3344.71"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-61.2149" showstereotype="1" y="-3379" text="1..*" font="MS Shell Dlg 2,8.2,-1,5,50,0,0,0,0,0" localid="unZxygxXhrKOW" pretext="" role="702" width="28" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uTv5uVfZGY7ku" autoresize="1" height="17"/>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-156.763" showstereotype="1" y="-3368.17" text="_circuit" font="MS Shell Dlg 2,8.2,-1,5,50,0,0,0,0,0" localid="u5cc6qTPtBr4i" pretext="-" role="710" width="46" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="ubnqNs2r8iL9H" autoresize="1" height="17"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="uiAVHrpR741iz" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="ue2JmS2kYg3JV" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="1" visibilityB="1" localid="uZaHPo7tlK0XN" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uPPMclXMdArOP" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-328.57" starty="-3403.95"/>
+           <endpoint endx="-414.571" endy="-3368.1"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-365.542" showstereotype="1" y="-3389.31" text="winner" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="uvrv80JtYCQio" pretext="-" role="710" width="44" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uXfVZ4a4SJuxL" autoresize="1" height="17"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="uvotMN1yXlllO" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="ue2JmS2kYg3JV" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="1" visibilityB="1" localid="urxvzTMG9Vx7r" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uc6SXKAeS6ohK" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-134.57" starty="-3403.95"/>
+           <endpoint endx="-85.069" endy="-3344.71"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-103.726" showstereotype="1" y="-3398.87" text="new_attribute" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="uwlYgDh2ZBvxC" pretext="-" role="710" width="80" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="u8xOHphFq2AOP" autoresize="1" height="17"/>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uiAVHrpR741iz" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uW7agi7zG8oL9" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uDAKMpAO2sMmK" usefillcolor="1" fillcolor="none" xmi.id="uw8E56KpbLt7U" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-737.097" starty="-2983.12"/>
+           <endpoint endx="-612.571" endy="-3068.1"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uiAVHrpR741iz" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uVP033FVPjvNb" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="udDBlivIIuUbp" usefillcolor="1" fillcolor="none" xmi.id="uKeKFwJgCTIzi" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-525.308" starty="-2947.41"/>
+           <endpoint endx="-525.308" endy="-3068.1"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uiAVHrpR741iz" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uDOXtoIL8PmZW" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u66JJb7Ej7P3b" usefillcolor="1" fillcolor="none" xmi.id="u51R6mM6s3iHq" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-398.604" starty="-2969.41"/>
+           <endpoint endx="-414.571" endy="-3068.1"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uvotMN1yXlllO" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uLqYTja1H7URP" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uBJsReyUUVkG5" usefillcolor="1" fillcolor="none" xmi.id="ueg7rUYlXWSi1" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="80.7802" starty="-2971.39"/>
+           <endpoint endx="80.7802" endy="-3104.71"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uvotMN1yXlllO" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="udkAvpBkGjLHd" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="unwgcLSiIi4if" usefillcolor="1" fillcolor="none" xmi.id="uxSBCMhZQcaUR" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="-85.069" starty="-2978.27"/>
+           <endpoint endx="-85.069" endy="-3104.71"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uvotMN1yXlllO" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uu6sYMLMyjLe2" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uapLa5LblM5o7" usefillcolor="1" fillcolor="none" xmi.id="ufCtkmEmiD2hL" autoresize="1" type="500">
+          <linepath layout="Direct">
+           <startpoint startx="232.687" starty="-2968.1"/>
+           <endpoint endx="93.931" endy="-3104.71"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="uiAVHrpR741iz" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="udkAvpBkGjLHd" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="1" visibilityB="1" localid="ud4fhFjQBqPFu" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uK50eRad2Jy42" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-245.031" starty="-2978.27"/>
+           <endpoint endx="-414.571" endy="-3068.1"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-412.571" showstereotype="1" y="-3066.1" text="_owner" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="uLTRZ9GZCff3P" pretext="-" role="710" width="48" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="u6wdaSOVwHMBZ" autoresize="1" height="17"/>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use_Case_View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component_View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment_View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="utbnImSlcZpOD" uniqueid="uwASptll1UhES" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component_View"/>
+    <listitem open="1" type="827" id="Deployment_View"/>
+    <listitem open="1" type="836" id="Entity_Relationship_Model"/>
+    <listitem open="1" type="801" id="Logical_View">
+     <listitem open="1" type="813" id="uZXiRbV3DmD3m"/>
+     <listitem open="1" type="813" id="uj0m2NKx3cgBh"/>
+     <listitem open="1" type="813" id="ue2JmS2kYg3JV">
+      <listitem open="0" type="814" id="uv0TRXq37YSxn"/>
+      <listitem open="0" type="814" id="u1XKku8D0ulxt"/>
+      <listitem open="0" type="814" id="u7SXFd8WfNJrl"/>
+      <listitem open="0" type="815" id="uddg5EmvDwonK"/>
+      <listitem open="0" type="815" id="urlP3L6SPpG0U"/>
+      <listitem open="0" type="814" id="urBq1S1IqYRsJ"/>
+      <listitem open="0" type="815" id="unFxXfWnGAaXQ"/>
+      <listitem open="0" type="815" id="u5N0p4nyYX7M3"/>
+      <listitem open="0" type="815" id="ugN9U0ss5Nep7"/>
+      <listitem open="0" type="815" id="uvDVarvty3PDa"/>
+      <listitem open="0" type="815" id="uH2Nr0M9jVLXl"/>
+      <listitem open="0" type="814" id="uc6SXKAeS6ohK"/>
+      <listitem open="0" type="814" id="u5HACOaRHTBYU"/>
+      <listitem open="0" type="814" id="uPPMclXMdArOP"/>
+     </listitem>
+     <listitem open="1" type="813" id="uW7agi7zG8oL9">
+      <listitem open="0" type="814" id="u5q2jMa2kmsm7"/>
+      <listitem open="0" type="815" id="uBeUFpJin43R0"/>
+      <listitem open="0" type="815" id="u9IMCqsSfcYgQ"/>
+      <listitem open="0" type="815" id="uqofo9f5ZG2nI"/>
+     </listitem>
+     <listitem open="0" type="807" id="utbnImSlcZpOD" label="class diagram"/>
+     <listitem open="1" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="uEoqlehYWkmpl"/>
+      <listitem open="1" type="829" id="ul1wWfLbfjpmt"/>
+      <listitem open="1" type="829" id="uxRrXTdxuO2Xn"/>
+      <listitem open="0" type="829" id="u1BAijl1pI11y"/>
+      <listitem open="0" type="829" id="urL96k20OJ1AI"/>
+      <listitem open="0" type="829" id="uSC8gcYYiciqg"/>
+      <listitem open="0" type="829" id="u0gdhvWABco9A"/>
+      <listitem open="0" type="829" id="uu5Uo0of358sV"/>
+      <listitem open="0" type="829" id="us7xiwVzmOx67"/>
+      <listitem open="0" type="829" id="uF5K4Hkpu6yG8"/>
+      <listitem open="1" type="829" id="uLKRltmhDcCjZ"/>
+      <listitem open="0" type="829" id="uMyFdaU79tEyU"/>
+      <listitem open="0" type="829" id="ukUN4tnY6NvrU"/>
+      <listitem open="0" type="829" id="u7wFBCDPfUnAa"/>
+      <listitem open="0" type="829" id="uMf6xiLx4yNSN"/>
+      <listitem open="0" type="829" id="uvQGIuYooxM4t"/>
+      <listitem open="0" type="829" id="ufkhZKOgjs2hL"/>
+      <listitem open="0" type="829" id="un7fzG7Nahjs9"/>
+      <listitem open="0" type="829" id="uEqQrP0rSCepi"/>
+      <listitem open="0" type="829" id="ufKlGqK21y0rs"/>
+      <listitem open="0" type="829" id="uSYyB0mnL4HlC"/>
+      <listitem open="0" type="829" id="uGZqac3tqQNZc"/>
+     </listitem>
+     <listitem open="1" type="813" id="uvotMN1yXlllO">
+      <listitem open="0" type="815" id="u3q8Rw0NoNvqH"/>
+      <listitem open="0" type="814" id="uVqYyAUVuc6lJ"/>
+      <listitem open="0" type="814" id="uxdWFZ10gNDud"/>
+      <listitem open="0" type="814" id="upJCCT0eRBA4D"/>
+      <listitem open="0" type="814" id="uGjQQAv8iJ655"/>
+      <listitem open="0" type="815" id="ubvnv0pgzW9FJ"/>
+      <listitem open="0" type="815" id="u0KPhDgW7EET2"/>
+      <listitem open="0" type="815" id="uAHTbf1BsRyH2"/>
+      <listitem open="0" type="815" id="ugVgn0JgYJ9IA"/>
+      <listitem open="0" type="815" id="uT2GREgoWzJDr"/>
+      <listitem open="0" type="815" id="uk368C3rHbikV"/>
+      <listitem open="0" type="815" id="uusdEl77eT4Qx"/>
+      <listitem open="0" type="815" id="uQUfjQ7mZxerH"/>
+      <listitem open="0" type="815" id="uq41Emb1VSQC0"/>
+      <listitem open="0" type="815" id="udlAryQuTOiPN"/>
+     </listitem>
+     <listitem open="1" type="813" id="uVP033FVPjvNb">
+      <listitem open="0" type="815" id="uMVyztWPlf3wv"/>
+      <listitem open="0" type="815" id="un4TQRGYk6oEo"/>
+     </listitem>
+     <listitem open="1" type="813" id="uLqYTja1H7URP">
+      <listitem open="0" type="815" id="u2hfB4DffkNmS"/>
+      <listitem open="0" type="815" id="uZr4lgGnCaXJh"/>
+     </listitem>
+     <listitem open="1" type="813" id="uiAVHrpR741iz">
+      <listitem open="0" type="814" id="uMhvpZBGSXfSn"/>
+      <listitem open="0" type="814" id="uLEv6uE6tzMZz"/>
+      <listitem open="0" type="814" id="u5eNEHdaNwH6Y"/>
+      <listitem open="0" type="814" id="uRLCiJDjionwD"/>
+      <listitem open="0" type="814" id="uoyexEQe7PZiH"/>
+      <listitem open="0" type="815" id="uDuxxFu1WbCV5"/>
+      <listitem open="0" type="815" id="uMIClhFKCGg2y"/>
+      <listitem open="0" type="815" id="ur0nqGDDOxslB"/>
+      <listitem open="0" type="815" id="ukHPmxI5pTEja"/>
+      <listitem open="0" type="815" id="ujUay4BYcMORz"/>
+      <listitem open="0" type="815" id="uCLQSiYq63r7H"/>
+      <listitem open="0" type="815" id="ui9kDTSc9yMhu"/>
+      <listitem open="0" type="815" id="uifZekrHLi9xW"/>
+      <listitem open="0" type="815" id="u0jJSn4MTMNdm"/>
+      <listitem open="0" type="815" id="ux2hHfchGkZTy"/>
+      <listitem open="0" type="815" id="u8aTL9e3oMSxM"/>
+      <listitem open="0" type="815" id="upbUFdshnIrRb"/>
+      <listitem open="0" type="815" id="u89aZyZEG9Bws"/>
+      <listitem open="0" type="815" id="ufzoRuowaMWnQ"/>
+     </listitem>
+     <listitem open="1" type="813" id="uFSdZlyOfLBrS">
+      <listitem open="0" type="814" id="uRXKxMdluz2eu"/>
+      <listitem open="0" type="814" id="uzw25meMjcsWz"/>
+      <listitem open="0" type="815" id="uilQdm6yzMT0U"/>
+      <listitem open="0" type="815" id="uE29uvuMcK1U7"/>
+     </listitem>
+     <listitem open="1" type="813" id="udkAvpBkGjLHd">
+      <listitem open="0" type="815" id="uNkW1dq0hHgHp"/>
+      <listitem open="0" type="814" id="uI1iH0HmFO1Xm"/>
+      <listitem open="0" type="814" id="uQ74jaTuhT63B"/>
+      <listitem open="0" type="814" id="uK50eRad2Jy42"/>
+      <listitem open="0" type="815" id="uLO0J7bsUqxSX"/>
+      <listitem open="0" type="815" id="uipOkSb7ZgUsx"/>
+      <listitem open="0" type="815" id="uxtXhK9RZU9IR"/>
+      <listitem open="0" type="815" id="uzUJ1xlqod138"/>
+      <listitem open="0" type="815" id="uBw7MO5XZnoHx"/>
+      <listitem open="0" type="815" id="uZ0ASKHPDhGjo"/>
+      <listitem open="0" type="815" id="uMIZeITPCN0xk"/>
+     </listitem>
+     <listitem open="1" type="813" id="uu6sYMLMyjLe2">
+      <listitem open="0" type="815" id="uTnauOet7RmpK"/>
+      <listitem open="0" type="815" id="uzOyZ2xsesLDp"/>
+     </listitem>
+     <listitem open="1" type="813" id="ugb6uYbQlkCgT"/>
+     <listitem open="1" type="813" id="uDOXtoIL8PmZW">
+      <listitem open="0" type="814" id="uRK5O1yaoS9Pu"/>
+      <listitem open="0" type="815" id="uKsP0wor525FI"/>
+      <listitem open="0" type="815" id="ughjfklLtem1K"/>
+     </listitem>
+    </listitem>
+    <listitem open="1" type="802" id="Use_Case_View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
